@@ -1,4 +1,4 @@
-package hellojenkins;
+//package hellojenkins;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,7 +12,8 @@ package hellojenkins;
  * @author tharaka_ra
  */
 public class HelloJenkins{
-
+int k;
+        String j;
     /**
      * @param args the command line arguments
      */
