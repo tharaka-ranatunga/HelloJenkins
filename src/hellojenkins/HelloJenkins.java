@@ -15,9 +15,15 @@ public class HelloJenkins{
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int k;
+        String j;
         for(int i=0; i<=10; i++){
             System.out.println("Hello Jenkins" + i);
         }
+        for(int i=0; i<=10; i++){
+            System.out.println("Hello Jenkins" + i);
+        }
+        sdfl;
         // TODO code application logic here
     }
     
