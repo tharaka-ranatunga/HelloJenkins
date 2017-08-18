@@ -1,4 +1,4 @@
-//package hellojenkins;
+package hellojenkins;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,23 +12,20 @@
  * @author tharaka_ra
  */
 public class HelloJenkins{
-int k;
-        String j;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         int k;
         String j;
-        int k;
-        String j;
         for(int i=0; i<=10; i++){
             System.out.println("Hello Jenkins" + i);
         }
         for(int i=0; i<=10; i++){
             System.out.println("Hello Jenkins" + i);
         }
-
+        sdfl;
         // TODO code application logic here
     }
     
