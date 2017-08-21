@@ -11,24 +11,22 @@
     <description>Builds, tests, and runs the project HelloJenkins.</description>
 <import file="nbproject/build-impl.xml"/>
     <target name="run" depends="compile">
-<!--        <java classname="HelloJenkins">
-            <classpath path="working"></classpath>
-        </java>-->
     </target>
     
-    <target name="compile" >
+    <target name="compile" depends="create">
         <javac srcdir="src/hellojenkins" destdir="working" includeantruntime="false"></javac>
     </target>
     
     
 <!--<target name="delete">
-        <echo message="Deleting bin/java ..." />
-        <delete dir="working" />
-    </target>
-    
- <target name="create" depends="delete">
-        <echo message="creating bin/java ..." />
-        <create dir="working" />
+    <delete includeEmptyDirs="true" failonerror="false">
+        <fileset dir="working" />
+    </delete>
     </target>-->
+
+ <target name="create" >
+        <delete dir="working"/>
+        <mkdir dir="working"/>
+ </target>
     
 </project>
